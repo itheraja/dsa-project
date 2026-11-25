@@ -1,0 +1,22 @@
+[
+  {
+    "id": "profitable",
+    "name": "Triangular opening",
+    "description": "A synthetic JUP/USDC imbalance creates an executable cycle."
+  },
+  {
+    "id": "balanced",
+    "name": "Balanced market",
+    "description": "Consistent cross prices; fees and impact remove profit."
+  },
+  {
+    "id": "competing",
+    "name": "Competing routes",
+    "description": "Parallel pools and triangular routes compete for capital."
+  },
+  {
+    "id": "fee-shock",
+    "name": "Fee shock",
+    "description": "The same price imbalance as the opening is erased by 5% pool fees."
+  }
+]

@@ -1,0 +1,501 @@
+{
+  "synthetic": true,
+  "snapshots": [
+    {
+      "id": "synthetic-snapshot-0",
+      "synthetic": true,
+      "tokens": [
+        {
+          "id": "USDC",
+          "symbol": "USDC",
+          "decimals": 6,
+          "name": "USD Coin"
+        },
+        {
+          "id": "SOL",
+          "symbol": "SOL",
+          "decimals": 9,
+          "name": "Solana"
+        },
+        {
+          "id": "JUP",
+          "symbol": "JUP",
+          "decimals": 6,
+          "name": "Jupiter"
+        },
+        {
+          "id": "RAY",
+          "symbol": "RAY",
+          "decimals": 6,
+          "name": "Raydium"
+        },
+        {
+          "id": "USDT",
+          "symbol": "USDT",
+          "decimals": 6,
+          "name": "Tether"
+        },
+        {
+          "id": "BONK",
+          "symbol": "BONK",
+          "decimals": 5,
+          "name": "Bonk"
+        }
+      ],
+      "pools": [
+        {
+          "id": "alpha-usdc-sol",
+          "a": "USDC",
+          "b": "SOL",
+          "reserveA": "100000",
+          "reserveB": "1000",
+          "feeBps": 30,
+          "dex": "Research alpha",
+          "type": "CPMM"
+        },
+        {
+          "id": "beta-sol-jup",
+          "a": "SOL",
+          "b": "JUP",
+          "reserveA": "1000",
+          "reserveB": "100000",
+          "feeBps": 30,
+          "dex": "Research beta",
+          "type": "CPMM"
+        },
+        {
+          "id": "gamma-jup-usdc",
+          "a": "JUP",
+          "b": "USDC",
+          "reserveA": "100000",
+          "reserveB": "100000",
+          "feeBps": 30,
+          "dex": "Research gamma",
+          "type": "CPMM"
+        },
+        {
+          "id": "delta-usdc-sol",
+          "a": "USDC",
+          "b": "SOL",
+          "reserveA": "100000",
+          "reserveB": "1000",
+          "feeBps": 30,
+          "dex": "Research delta",
+          "type": "CPMM"
+        },
+        {
+          "id": "epsilon-usdc-ray",
+          "a": "USDC",
+          "b": "RAY",
+          "reserveA": "100000",
+          "reserveB": "50000",
+          "feeBps": 30,
+          "dex": "Research epsilon",
+          "type": "CPMM"
+        },
+        {
+          "id": "zeta-ray-jup",
+          "a": "RAY",
+          "b": "JUP",
+          "reserveA": "50000",
+          "reserveB": "100000",
+          "feeBps": 30,
+          "dex": "Research zeta",
+          "type": "CPMM"
+        },
+        {
+          "id": "eta-usdc-usdt",
+          "a": "USDC",
+          "b": "USDT",
+          "reserveA": "100000",
+          "reserveB": "100000",
+          "feeBps": 30,
+          "dex": "Research eta",
+          "type": "CPMM"
+        },
+        {
+          "id": "theta-usdt-bonk",
+          "a": "USDT",
+          "b": "BONK",
+          "reserveA": "10000",
+          "reserveB": "1000000000",
+          "feeBps": 30,
+          "dex": "Research theta",
+          "type": "CPMM"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-snapshot-1",
+      "synthetic": true,
+      "tokens": [
+        {
+          "id": "USDC",
+          "symbol": "USDC",
+          "decimals": 6,
+          "name": "USD Coin"
+        },
+        {
+          "id": "SOL",
+          "symbol": "SOL",
+          "decimals": 9,
+          "name": "Solana"
+        },
+        {
+          "id": "JUP",
+          "symbol": "JUP",
+          "decimals": 6,
+          "name": "Jupiter"
+        },
+        {
+          "id": "RAY",
+          "symbol": "RAY",
+          "decimals": 6,
+          "name": "Raydium"
+        },
+        {
+          "id": "USDT",
+          "symbol": "USDT",
+          "decimals": 6,
+          "name": "Tether"
+        },
+        {
+          "id": "BONK",
+          "symbol": "BONK",
+          "decimals": 5,
+          "name": "Bonk"
+        }
+      ],
+      "pools": [
+        {
+          "id": "alpha-usdc-sol",
+          "a": "USDC",
+          "b": "SOL",
+          "reserveA": "100000",
+          "reserveB": "1000",
+          "feeBps": 30,
+          "dex": "Research alpha",
+          "type": "CPMM"
+        },
+        {
+          "id": "beta-sol-jup",
+          "a": "SOL",
+          "b": "JUP",
+          "reserveA": "1000",
+          "reserveB": "100000",
+          "feeBps": 30,
+          "dex": "Research beta",
+          "type": "CPMM"
+        },
+        {
+          "id": "gamma-jup-usdc",
+          "a": "JUP",
+          "b": "USDC",
+          "reserveA": "100000",
+          "reserveB": "110000",
+          "feeBps": 30,
+          "dex": "Research gamma",
+          "type": "CPMM"
+        },
+        {
+          "id": "delta-usdc-sol",
+          "a": "USDC",
+          "b": "SOL",
+          "reserveA": "100000",
+          "reserveB": "1000",
+          "feeBps": 30,
+          "dex": "Research delta",
+          "type": "CPMM"
+        },
+        {
+          "id": "epsilon-usdc-ray",
+          "a": "USDC",
+          "b": "RAY",
+          "reserveA": "100000",
+          "reserveB": "50000",
+          "feeBps": 30,
+          "dex": "Research epsilon",
+          "type": "CPMM"
+        },
+        {
+          "id": "zeta-ray-jup",
+          "a": "RAY",
+          "b": "JUP",
+          "reserveA": "50000",
+          "reserveB": "100000",
+          "feeBps": 30,
+          "dex": "Research zeta",
+          "type": "CPMM"
+        },
+        {
+          "id": "eta-usdc-usdt",
+          "a": "USDC",
+          "b": "USDT",
+          "reserveA": "100000",
+          "reserveB": "100000",
+          "feeBps": 30,
+          "dex": "Research eta",
+          "type": "CPMM"
+        },
+        {
+          "id": "theta-usdt-bonk",
+          "a": "USDT",
+          "b": "BONK",
+          "reserveA": "10000",
+          "reserveB": "1000000000",
+          "feeBps": 30,
+          "dex": "Research theta",
+          "type": "CPMM"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-snapshot-2",
+      "synthetic": true,
+      "tokens": [
+        {
+          "id": "USDC",
+          "symbol": "USDC",
+          "decimals": 6,
+          "name": "USD Coin"
+        },
+        {
+          "id": "SOL",
+          "symbol": "SOL",
+          "decimals": 9,
+          "name": "Solana"
+        },
+        {
+          "id": "JUP",
+          "symbol": "JUP",
+          "decimals": 6,
+          "name": "Jupiter"
+        },
+        {
+          "id": "RAY",
+          "symbol": "RAY",
+          "decimals": 6,
+          "name": "Raydium"
+        },
+        {
+          "id": "USDT",
+          "symbol": "USDT",
+          "decimals": 6,
+          "name": "Tether"
+        },
+        {
+          "id": "BONK",
+          "symbol": "BONK",
+          "decimals": 5,
+          "name": "Bonk"
+        }
+      ],
+      "pools": [
+        {
+          "id": "alpha-usdc-sol",
+          "a": "USDC",
+          "b": "SOL",
+          "reserveA": "100000",
+          "reserveB": "1000",
+          "feeBps": 30,
+          "dex": "Research alpha",
+          "type": "CPMM"
+        },
+        {
+          "id": "beta-sol-jup",
+          "a": "SOL",
+          "b": "JUP",
+          "reserveA": "1000",
+          "reserveB": "100000",
+          "feeBps": 30,
+          "dex": "Research beta",
+          "type": "CPMM"
+        },
+        {
+          "id": "gamma-jup-usdc",
+          "a": "JUP",
+          "b": "USDC",
+          "reserveA": "100000",
+          "reserveB": "110000",
+          "feeBps": 30,
+          "dex": "Research gamma",
+          "type": "CPMM"
+        },
+        {
+          "id": "delta-usdc-sol",
+          "a": "USDC",
+          "b": "SOL",
+          "reserveA": "100000",
+          "reserveB": "1080",
+          "feeBps": 30,
+          "dex": "Research delta",
+          "type": "CPMM"
+        },
+        {
+          "id": "epsilon-usdc-ray",
+          "a": "USDC",
+          "b": "RAY",
+          "reserveA": "100000",
+          "reserveB": "54000",
+          "feeBps": 30,
+          "dex": "Research epsilon",
+          "type": "CPMM"
+        },
+        {
+          "id": "zeta-ray-jup",
+          "a": "RAY",
+          "b": "JUP",
+          "reserveA": "50000",
+          "reserveB": "100000",
+          "feeBps": 30,
+          "dex": "Research zeta",
+          "type": "CPMM"
+        },
+        {
+          "id": "eta-usdc-usdt",
+          "a": "USDC",
+          "b": "USDT",
+          "reserveA": "100000",
+          "reserveB": "100000",
+          "feeBps": 30,
+          "dex": "Research eta",
+          "type": "CPMM"
+        },
+        {
+          "id": "theta-usdt-bonk",
+          "a": "USDT",
+          "b": "BONK",
+          "reserveA": "10000",
+          "reserveB": "1000000000",
+          "feeBps": 30,
+          "dex": "Research theta",
+          "type": "CPMM"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-snapshot-3",
+      "synthetic": true,
+      "tokens": [
+        {
+          "id": "USDC",
+          "symbol": "USDC",
+          "decimals": 6,
+          "name": "USD Coin"
+        },
+        {
+          "id": "SOL",
+          "symbol": "SOL",
+          "decimals": 9,
+          "name": "Solana"
+        },
+        {
+          "id": "JUP",
+          "symbol": "JUP",
+          "decimals": 6,
+          "name": "Jupiter"
+        },
+        {
+          "id": "RAY",
+          "symbol": "RAY",
+          "decimals": 6,
+          "name": "Raydium"
+        },
+        {
+          "id": "USDT",
+          "symbol": "USDT",
+          "decimals": 6,
+          "name": "Tether"
+        },
+        {
+          "id": "BONK",
+          "symbol": "BONK",
+          "decimals": 5,
+          "name": "Bonk"
+        }
+      ],
+      "pools": [
+        {
+          "id": "alpha-usdc-sol",
+          "a": "USDC",
+          "b": "SOL",
+          "reserveA": "100000",
+          "reserveB": "1000",
+          "feeBps": 500,
+          "dex": "Research alpha",
+          "type": "CPMM"
+        },
+        {
+          "id": "beta-sol-jup",
+          "a": "SOL",
+          "b": "JUP",
+          "reserveA": "1000",
+          "reserveB": "100000",
+          "feeBps": 500,
+          "dex": "Research beta",
+          "type": "CPMM"
+        },
+        {
+          "id": "gamma-jup-usdc",
+          "a": "JUP",
+          "b": "USDC",
+          "reserveA": "100000",
+          "reserveB": "110000",
+          "feeBps": 500,
+          "dex": "Research gamma",
+          "type": "CPMM"
+        },
+        {
+          "id": "delta-usdc-sol",
+          "a": "USDC",
+          "b": "SOL",
+          "reserveA": "100000",
+          "reserveB": "1000",
+          "feeBps": 500,
+          "dex": "Research delta",
+          "type": "CPMM"
+        },
+        {
+          "id": "epsilon-usdc-ray",
+          "a": "USDC",
+          "b": "RAY",
+          "reserveA": "100000",
+          "reserveB": "50000",
+          "feeBps": 500,
+          "dex": "Research epsilon",
+          "type": "CPMM"
+        },
+        {
+          "id": "zeta-ray-jup",
+          "a": "RAY",
+          "b": "JUP",
+          "reserveA": "50000",
+          "reserveB": "100000",
+          "feeBps": 500,
+          "dex": "Research zeta",
+          "type": "CPMM"
+        },
+        {
+          "id": "eta-usdc-usdt",
+          "a": "USDC",
+          "b": "USDT",
+          "reserveA": "100000",
+          "reserveB": "100000",
+          "feeBps": 500,
+          "dex": "Research eta",
+          "type": "CPMM"
+        },
+        {
+          "id": "theta-usdt-bonk",
+          "a": "USDT",
+          "b": "BONK",
+          "reserveA": "10000",
+          "reserveB": "1000000000",
+          "feeBps": 500,
+          "dex": "Research theta",
+          "type": "CPMM"
+        }
+      ]
+    }
+  ]
+}

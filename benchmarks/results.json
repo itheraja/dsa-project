@@ -1,0 +1,98 @@
+[
+  {
+    "algorithm": "dfs",
+    "cycles": 150,
+    "edges": 36,
+    "expansions": 810,
+    "maxHops": 4,
+    "milliseconds": 0.0521,
+    "pools": 18,
+    "repetitions": 5,
+    "tokens": 6,
+    "truncated": false
+  },
+  {
+    "algorithm": "bellman-ford",
+    "cycles": 0,
+    "edges": 36,
+    "expansions": 72,
+    "maxHops": 4,
+    "milliseconds": 0.005841600000000001,
+    "pools": 18,
+    "repetitions": 5,
+    "tokens": 6,
+    "truncated": false
+  },
+  {
+    "algorithm": "dfs",
+    "cycles": 76,
+    "edges": 72,
+    "expansions": 1014,
+    "maxHops": 4,
+    "milliseconds": 0.0556166,
+    "pools": 36,
+    "repetitions": 5,
+    "tokens": 12,
+    "truncated": false
+  },
+  {
+    "algorithm": "bellman-ford",
+    "cycles": 0,
+    "edges": 72,
+    "expansions": 216,
+    "maxHops": 4,
+    "milliseconds": 0.011425000000000001,
+    "pools": 36,
+    "repetitions": 5,
+    "tokens": 12,
+    "truncated": false
+  },
+  {
+    "algorithm": "dfs",
+    "cycles": 74,
+    "edges": 144,
+    "expansions": 1014,
+    "maxHops": 4,
+    "milliseconds": 0.056075,
+    "pools": 72,
+    "repetitions": 5,
+    "tokens": 24,
+    "truncated": false
+  },
+  {
+    "algorithm": "bellman-ford",
+    "cycles": 0,
+    "edges": 144,
+    "expansions": 720,
+    "maxHops": 4,
+    "milliseconds": 0.0273084,
+    "pools": 72,
+    "repetitions": 5,
+    "tokens": 24,
+    "truncated": false
+  },
+  {
+    "algorithm": "dfs",
+    "cycles": 74,
+    "edges": 288,
+    "expansions": 1014,
+    "maxHops": 4,
+    "milliseconds": 0.0564582,
+    "pools": 144,
+    "repetitions": 5,
+    "tokens": 48,
+    "truncated": false
+  },
+  {
+    "algorithm": "bellman-ford",
+    "cycles": 0,
+    "edges": 288,
+    "expansions": 2592,
+    "maxHops": 4,
+    "milliseconds": 0.073625,
+    "pools": 144,
+    "repetitions": 5,
+    "tokens": 48,
+    "truncated": false
+  }
+]
